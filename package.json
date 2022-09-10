@@ -1,0 +1,36 @@
+{
+  "name": "react-parcel-express-base",
+  "version": "0.0.1",
+  "description": "Base for web aplication (using React + Parcel + Express)",
+  "source": "src/index.html",
+  "type": "module",
+  "scripts": {
+    "front:dev": "parcel --open --dist-dir build",
+    "front:build": "parcel build --dist-dir build",
+    "front:watch": "parcel watch --dist-dir build",
+    "server:dev": "cross-env MODE=dev PORT=3000 nodemon ./server/server.js",
+    "server:build": "cross-env MODE=prod PORT=3000 node ./server/server.js"
+  },
+  "keywords": [
+    "react",
+    "parcel",
+    "express"
+  ],
+  "author": "Smail000",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cross-env": "^7.0.3",
+    "express": "^4.18.1",
+    "ip": "^1.1.8",
+    "nodemon": "^2.0.19",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.7.0",
+    "process": "^0.11.10"
+  }
+}

@@ -1,0 +1,22 @@
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.playground {
+    display: flex;
+    margin-top: 10px;
+    width: 800px;
+    height: 90vh;
+    background-color: aqua;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.obj {
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: red;
+    height: 15px;
+}
