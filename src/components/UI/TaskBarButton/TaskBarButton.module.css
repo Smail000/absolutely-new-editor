@@ -1,0 +1,24 @@
+
+.taskbarbutton {
+    transition: all 0.3s;
+    border: 2px solid #8197BC;
+    background-color: #F4F9FD;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 0 3.5 gray;
+}
+
+.taskbarbutton:hover {
+    transition: all 0.3s;
+    background-color: #BACEE6;
+}
+
+.active {
+    transition: all 0.3s;
+    background-color: #BACEE6;
+    transform: scale(0.9, 0.9);
+}

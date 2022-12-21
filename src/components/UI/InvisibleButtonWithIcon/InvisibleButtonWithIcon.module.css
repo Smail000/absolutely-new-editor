@@ -1,0 +1,15 @@
+
+
+.wrapper {
+    transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.wrapper:hover {
+    transition: all 0.3s;
+    background-color: #BACEE6;
+}

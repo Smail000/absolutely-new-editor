@@ -1,0 +1,16 @@
+
+
+
+.barbase {
+    box-sizing: border-box;
+
+    height: 100%;
+
+    border: 2px solid black;
+    border-radius: 5px;
+
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-around; */
+    box-shadow: 0 0 3.5 gray;
+}

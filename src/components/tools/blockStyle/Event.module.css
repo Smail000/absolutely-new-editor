@@ -1,0 +1,33 @@
+
+.self {
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #0057AF;
+    border: 1px solid #0057AF;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.self > p {
+    margin-left: 10px;
+}
+
+.hovered {
+    background-color: #033f7a;
+}
+
+.vertLine {
+    border-radius: 2px;
+    position: absolute;
+    background-color: #0057AF;
+    width: 2px;
+}
+
+.horisLine {
+    border-radius: 2px;
+    position: absolute;
+    background-color: #0057AF;
+    height: 2px;
+}

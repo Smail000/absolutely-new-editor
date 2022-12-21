@@ -1,0 +1,20 @@
+.self {
+    font-size: 13;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #0057AF;
+    color: #0057AF;
+    display: flex;
+    align-items: center;
+}
+
+.self > p {
+    margin-left: 11px;
+}
+
+
+.hovered {
+    background-color: rgb(189, 189, 189);
+}

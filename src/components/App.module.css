@@ -1,0 +1,126 @@
+
+.screen {
+    box-sizing: border-box;
+
+    font-weight: 500;
+    
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.topbar_wrapper {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 4px;
+}
+
+.topbar {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+}
+
+
+.topbar__lefticonsgroup {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.topbar > span {
+    margin: auto;
+    font-size: 20px;
+}
+
+.topbar__dropdowngroup {
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+}
+
+.topbar__righticonsgroup {
+    margin-right: 20px;
+}
+
+
+/* Task Bar Group */
+.taskbargroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 68px;
+
+    margin-bottom: 5px;
+}
+
+.taskbargroup__leftfeildbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 18.75%;
+}
+
+.taskbargroup__taskbar {
+    align-items: center;
+    width: 62.7%;
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.taskbargroup__rightfeildbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 18.75%;
+}
+
+
+
+/* Center Bar Group */
+.centerbargroup {
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    /* height: 80%; */
+}
+
+.centerbargroup__leftbar {
+    align-items: center;
+    width: 18.75%;
+}
+
+.centerbargroup__leftbar__search {
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.centerbargroup__blockbar {
+    align-items: center;
+    width: 62.5%;
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.centerbargroup__rightbar {
+    align-items: center;
+    width: 18.75%;
+}
